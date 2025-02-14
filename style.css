@@ -294,23 +294,3 @@ padding-top: 25px;
 
     padding-top: 5px;
 }
-
-/* Mobile Devices */
-@media (max-width: 767px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-search {
-        width: 80%;
-    }
-
-    .shop-section {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .panel-options {
-        display: none;
-    }
-}
